@@ -3,6 +3,9 @@
     <meta charset="utf-8">
     <title>Ayudantía 3</title>
     <link href="estilo.css" rel="stylesheet"/> 
+    <link href="java.js"/> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="java.js"></script>
 </head>
 <header id="cabecera" class="tipografia">
     <p>Mis playlists de Spotify</p>
@@ -22,13 +25,28 @@
     </div>
     <div>
         <div class="imagenes">
-            <img src="Imagenes/get up bitch you're not sad anymore.png" width="250" alt="get up bitch you're not sad anymore cover"/>
+            <img src="Imagenes/get up bitch you're not sad anymore.png" width="250" alt="get up bitch you're not sad anymore"  class="cover"/>
+            <div class="likejs">
+                <p class="tipografia" class="texto"><strong>Like</strong></p>
+                <img src="Imagenes/like.png" width="50" alt="like" class="like"/>
+            </div>
         </div>
         <div class="imagenes">
-            <img src="Imagenes/Just chillin'.png" width="250" alt="Just chillin'cover"/>
-        </div>
+            <img src="Imagenes/Just chillin'.png" width="250" alt="Just chillin'" class="cover"/>
+            <div class="likejs">
+                <p class="tipografia" class="texto"><strong>Like</strong></p>
+                <img src="Imagenes/like.png" width="50" alt="like" class="like"/>
+            </div>
+        </div class="likejs">
         <div class="imagenes">
-            <img src="Imagenes/Pretty in Punk.png" width="250" alt="Pretty in Punk cover"/>
+            <img src="Imagenes/Pretty in Punk.png" width="250" alt="Pretty in Punk"  class="cover"/>
+            <div>
+                <p class="tipografia" class="texto" ><strong>Like</strong></p>
+                <img src="Imagenes/like.png" width="50" alt="like" class="like"/>
+            </div>
         </div>
+    </div>
+    <div id="nombre" class="tipografia">
+        <p  class="texto">Playlist</p>
     </div>
 </body>
